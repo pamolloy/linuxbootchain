@@ -9,8 +9,15 @@ package management systems. Although the script is extremely simple (when
 compared to embedded distro tools or mainline distribution tools), the
 distributions themselves introduce significant complexity.
 
-- [ ] Could it be used as a system installer with a text or graphical front end?
-- [ ] Perhaps embedded into a LinuxBoot to build a debug initramfs on-demand?
+For example, there are host dependencies required for building images for each
+type of distribution. In theory that may just be the main package manager for
+that distribution. On Fedora 41 I was unable to build a Arch Linux image even
+with the `arch-install-scripts` and `archlinux-keyring` packages installed in
+Fedora.
+
+Naturally one might try to use a container from the target distribution to
+build a mkosi image of that distribution, but that does not seem to work reliably
+given that containers provide a very different environment from full systems.
 
 ## Cross-building images
 
