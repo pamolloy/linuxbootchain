@@ -34,3 +34,8 @@ order to generate a fedora image for that target.
 Cloud providers increasingly offer aarch64 VMs, but that comes at some cost and
 the largest providers are targeted for more complex use cases and therefore
 require more time and experience to setup.
+
+For example, I purchased a Radxa Rock5 ITX+ motherboard with a RK3588 with 4
+1.8 GHz cores and 4 2.2 GHz cores. My desktop includes a Intel i7-6700K with 8
+4.2 GHz cores. On the Rockchip board a Debian arm64 disk image took 1:42 real
+and 38s sys time, while on the Intel board it took 7:32 real and 23s sys.
