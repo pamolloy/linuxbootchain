@@ -1,3 +1,5 @@
+# Mainstream Linux distribution installers
+
 Anaconda and Agama provide web-based UIs, which are important features for
 headless embedded devices.
 
@@ -13,7 +15,7 @@ which is installed into an ISO image using
 The host architecture must match the target architecture and it needs to build
 in a Fedora environment.
 
-```
+```bash
 sudo dnf install -y kiwi-cli
 git clone https://pagure.io/fedora-kiwi-descriptions.git
 cd fedora-kiwi-descriptions

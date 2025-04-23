@@ -1,3 +1,5 @@
+# How-to optimize space
+
 A mix of compression and kernel/root filesystem size optimization is often
 required to fit images into the 16 or 32 Mib flash parts that are common on
 motherboards.

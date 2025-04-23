@@ -1,3 +1,5 @@
+# Using eMMC to store boot loaders
+
 LinuxBoot can be implemented using many different components that can each be
 configured in countless ways that can result in images of a few megabytes to
 hundreds of megabytes. The larger sized images include more tools, which can

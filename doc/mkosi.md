@@ -1,3 +1,5 @@
+# mkosi
+
 mkosi was originally a small script written by Lennart Poettering under the
 systemd project that had a period of stagnation, but then saw increased
 development under new maintainers. Despite growing significantly, it is still

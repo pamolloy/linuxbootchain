@@ -1,8 +1,10 @@
+# LinuxBoot-style boot loaders
+
 A LinuxBoot boot loader is a boot stage that uses the Linux kernel and runs
-software in userspace to eventually kexec a runtime kernel. For more
+software in userspace to inevitably kexec a runtime kernel. For more
 information see the [LinuxBoot Book](https://book.linuxboot.org/).
 
-## Why yet another LinuxBoot?
+## Yet another LinuxBoot
 
 There are numerous LinuxBoot implementations, with u-root being the most
 popular and least architecture specific. Using Buildroot has several advantages

@@ -3,8 +3,8 @@
 ## Build
 
 ```bash
-$ make rock5_itx_plus_defconfig
-$ make
+make rock5_itx_plus_defconfig
+make
 ```
 
 ## Booting
@@ -35,6 +35,7 @@ Enter `root` as login user, and the prompt is ready.
 
 - [ROCK 5 ITX](https://forum.radxa.com/c/rock5/5itx) label on the Radxa forum
 - [Radxa ROCK 5 ITX+ product page](https://radxa.com/products/rock5/5itxp)
-- [ROCK 5 ITX](https://docs.radxa.com/en/rock5/rock5itx) on the Radxa documentation website
+- [ROCK 5 ITX](https://docs.radxa.com/en/rock5/rock5itx) on the Radxa
+  documentation website
 
 [^1]: https://github.com/radxa/u-boot/blob/next-dev-v2024.10/arch/arm/mach-rockchip/boot_rkimg.c#L340
