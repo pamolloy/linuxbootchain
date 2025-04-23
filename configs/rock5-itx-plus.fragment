@@ -1,0 +1,1 @@
+BR2_ROOTFS_POST_SCRIPT_ARGS="-c $(BR2_EXTERNAL_LINUXBOOTCHAIN_PATH)/board/radxa/rock5-itx-plus/genimage.cfg"
