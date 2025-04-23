@@ -1,0 +1,8 @@
+image: fedora:latest
+
+lint:
+  stage: build
+  script:
+    - sudo dnf install -y fd-find rubygems
+    - sudo gem install mdl
+    - mdl $(fd -e md)
