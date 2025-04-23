@@ -18,7 +18,8 @@ load an image over USB.
 Adding a jumper to the 2-pin `RECOVERY` header next to the UART header causes
 Radxa's U-Boot to boot the Radxa Roobi OS installer from the eMMC.[^1] Their
 Electron app supports installing their custom forks of mainstream distros or
-their own distribution based on Debian to either an SD card or NVMe drive.
+their own distribution based on Debian to either an SD card or NVMe drive, but
+not the on-board eMMC since it is used to store Roobi OS.
 
 ### Serial console
 
