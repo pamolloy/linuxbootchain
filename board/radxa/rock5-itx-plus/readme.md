@@ -2,9 +2,13 @@
 
 ## Build
 
+Run the following in the root directory of the ABCD repository.
+
+By default this will use all available cores on the system. If that is not
+desired then replace `$(nproc)` in `build.bash` with the desired number.
+
 ```bash
-make rock5_itx_plus_defconfig
-make
+board/radxa/rock5-itx-plus/build.bash
 ```
 
 ## Booting
