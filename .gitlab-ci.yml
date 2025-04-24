@@ -14,3 +14,9 @@ lint-prose:
     - sudo dnf -y install vale
     - vale sync
     - vale $(fd -e md)
+
+lint-bash:
+  stage: build
+  script:
+    - sudo dnf install -y fd-find ShellCheck
+    - shellcheck $(fd -e bash)
