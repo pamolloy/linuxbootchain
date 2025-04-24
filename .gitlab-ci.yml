@@ -1,8 +1,16 @@
 image: fedora:latest
 
-lint:
+lint-markdown:
   stage: build
   script:
     - sudo dnf install -y fd-find rubygems
     - sudo gem install mdl
     - mdl $(fd -e md)
+
+lint-prose:
+  stage: build
+  script:
+    - sudo dnf -y copr enable mczernek/vale
+    - sudo dnf -y install vale
+    - vale sync
+    - vale $(fd -e md)
