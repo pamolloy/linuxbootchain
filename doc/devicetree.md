@@ -1,4 +1,4 @@
-# Devicetree
+# devicetree
 
 The devicetree is a description of the hardware in a system that is independent
 of the operating system. It is currently maintained by an independent project
@@ -10,12 +10,12 @@ then it has been adopted by numerous other architectures.
 
 It has also been adopted to describe binary firmware archive images known as
 FIT images that originally came from the U-Boot boot loader. It is also used in
-the Zephyr RTOS targeting MCUs.
+the Zephyr RTOS targeting microcontrollers.
 
 U-Boot for example, regularly copies devicetrees from the kernel into
 `dts/upstream/` within its own source tree. By default that devicetree will be
 passed to the kernel, regardless of the version or tree used to build the
-kernel. That is selected by the `CONFIG_DEFAULT_DEVICE_TREE` kconfig option.
+kernel. That is selected by the `CONFIG_DEFAULT_DEVICE_TREE` Kconfig option.
 
 Kernel maintainers encourage contributors to document complete devicetree
 bindings in `Documentation/devicetree/bindings` even if a driver only supports
@@ -29,9 +29,8 @@ sometimes used to describe software.
 - Memory regions may be reserved for application specific system software
 - FPGAs may be treated like hardware, but can be reconfigured at runtime
 
-There are also no guarantees made between kernel versions. Furthermore, vendors
-tend to do all sorts of weird things in their trees, but that is even more true
-of kernel source that is maintained outside mainline.
+No guarantees are made between kernel versions. Furthermore, vendors tend to do
+all sorts of weird things in their trees.
 
 ## ACPI
 
@@ -53,5 +52,5 @@ complexity to the system.
 - [Unified Kernel Image
   (UKI)](https://uapi-group.org/specifications/specs/unified_kernel_image/) may
   optionally included a devicetree
-- [Secure boot without UEFI: booting VMs on
+- [Secure boot without UEFI: booting virtual machines on
   Power(PC)](https://archive.fosdem.org/2021/schedule/event/firmware_sbwubvop/)

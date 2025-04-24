@@ -3,7 +3,7 @@
 `kexec` is a kernel boot loader that skips the boot loaders that execute when
 power cycling a device.
 
-Note that there are ways `kexec` runs. Either "without an option paramter",
+Note that there are ways `kexec` runs. Either "without an option parameter",
 which loads the kernel and runs `shutdown` assuming that `shutdown` supports
 kexec-based rebooting by running `kexec -e`. Alternatively with `-l` and then
 `-e`, which loads the kernel and runs `reboot`.

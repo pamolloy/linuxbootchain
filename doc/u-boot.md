@@ -3,9 +3,9 @@
 U-Boot includes some level of UEFI support and there is active development on
 ACPI.
 
-It implements a `bootflow scan -lb` command, which will search for bootable
-images and boot the highest priority image. But there does not appear to be a
-classic boot menu and the image search process can be very slow.
+It implements a `bootflow scan -lb` command, which will search for images and
+boot the highest priority image. But there does not appear to be a classic boot
+menu and the image search process is much slower than other implementations.
 
 Although it is possible to include an initramfs inside a kernel image, most
 distributions distribute them separately, which means the kernel boot loader
@@ -21,4 +21,4 @@ U-Boot used to be a monolith, but has long since been split into stages (see
 [Booting from TPL/SPL](https://docs.u-boot.org/en/latest/usage/spl_boot.html)).
 The U-Boot TPL contains valuable platform specific hardware initialization code
 (e.g. DDR init), while U-Boot "proper" contains higher level code that could
-execute in userspace.
+execute in user-space.

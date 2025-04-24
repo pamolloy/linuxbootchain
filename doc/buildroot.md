@@ -19,11 +19,11 @@ Buildroot is a long-running well-maintained community-based project that
 includes support for dozens of targets and the ability to use custom or
 pre-built toolchains.
 
-Additionally, Buildroot has very minimal host dependencies (see [Chapter 2.
-System requirements](https://buildroot.org/downloads/manual/manual.html#requirement).
+Additionally, Buildroot has minimal host dependencies (see [Chapter 2. System
+requirements](https://buildroot.org/downloads/manual/manual.html#requirement).
 
 Unlike some build systems it does not require virtualization nor does it depend
 on containers. Compared to running on the host, VMs/containers require moving
 data in and out of them, do not have the same tools as the hots (e.g. system
-vs. application containers, or simply don't match the host distro or user's
+vs. application containers, or don't match the host distribution or user's
 preferred tools), and require special knowledge to debug.

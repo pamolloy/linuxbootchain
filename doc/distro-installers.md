@@ -1,12 +1,12 @@
-# Mainstream Linux distribution installers
+# Mainstream Linux distribution installation programs
 
-Anaconda and Agama provide web-based UIs, which are important features for
-headless embedded devices.
+Anaconda and Agama provide web-based user interfaces, which are important
+features for headless embedded devices.
 
 ## Fedora
 
-Fedora maintains the [Anaconda
-installer](https://docs.fedoraproject.org/en-US/quick-docs/anaconda-introduction/),
+Fedora maintains the [Anaconda installation
+program](https://docs.fedoraproject.org/en-US/quick-docs/anaconda-introduction/),
 which is installed into an ISO image using
 [kiwi](https://github.com/OSInside/kiwi), which is also used by SUSE.
 
@@ -27,7 +27,7 @@ sudo ./kiwi-build --kiwi-file=Fedora.kiwi \
 
 ## Other
 
-- [Agama](https://agama-project.github.io/about) is the installer used by
-  OpenSUSE
+- [Agama](https://agama-project.github.io/about) is the installation program
+  used by OpenSUSE
 - [Radxa Roobi OS](https://docs.radxa.com/en/roobi) installs Radxa forks of
   mainline distributions as well as their own distribution based on Debian

@@ -9,7 +9,7 @@ adhered to by all boot chains:
 - Do not include U-Boot "proper", however the TPL and SPL are perfectly fine,
   especially when there is no coreboot/oreboot support
 - Use well-maintained mainstream community developed solutions rather than
-  reimplementations with less support and fewer features
+  alternate implementations with less support and fewer features
 - Try to leave space for redundant images or partitions to support atomic updates
 - Consider ROM features like what types of storage are supported and whether
   fallback is supported by searching a device for valid images
