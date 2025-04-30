@@ -6,8 +6,8 @@ adhered to by all boot chains:
 
 - Use a [LinuxBoot](https://www.linuxboot.org/) implementation
 - Stay as far away from UEFI as possible
-- Do not include U-Boot "proper", however the TPL and SPL are perfectly fine,
-  especially when there is no coreboot/oreboot support
+- Do not include U-Boot "proper", however the TPL and SPL are perfectly fine
+  (see [u-boot.md](doc/u-boot.md))
 - Use well-maintained mainstream community developed solutions rather than
   alternate implementations with less support and fewer features
 - Try to leave space for redundant images or partitions to support atomic updates
