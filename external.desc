@@ -1,2 +1,2 @@
-name: LINUXBOOTCHAIN
-description: A complete boot chain to kexec Linux distributions from power-on reset
+name: ABCD
+description: A boot chain distribution

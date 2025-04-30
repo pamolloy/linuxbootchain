@@ -1,6 +1,6 @@
 # Boot chain design guidelines
 
-Although the LBC project aims to provide as much discretion to board
+Although the abcd project aims to provide as much discretion to board
 maintainers as possible, there are a few fundamental principles that should be
 adhered to by all boot chains:
 
