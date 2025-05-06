@@ -11,7 +11,7 @@ lint-prose:
   stage: build
   script:
     - sudo dnf -y copr enable mczernek/vale
-    - sudo dnf -y install vale
+    - sudo dnf -y install fd-find vale
     - vale sync
     - vale $(fd -e md)
 
