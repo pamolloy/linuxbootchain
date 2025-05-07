@@ -2,7 +2,8 @@
 
 A mix of compression and kernel/root filesystem size optimization is often
 required to fit images into the 16 or 32 MiB flash parts that are common on
-motherboards.
+motherboards. One exception are boards with an eMMC (see [Using eMMC to store boot
+loaders](emmc.md)).
 
 ## Kernel
 
