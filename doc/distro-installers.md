@@ -31,3 +31,4 @@ sudo ./kiwi-build --kiwi-file=Fedora.kiwi \
   used by OpenSUSE
 - [Radxa Roobi OS](https://docs.radxa.com/en/roobi) installs Radxa forks of
   mainline distributions as well as their own distribution based on Debian
+- [Khadas OOWOW](https://docs.khadas.com/software/oowow/getting-started)

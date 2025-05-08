@@ -12,6 +12,7 @@ Github
 initramfs
 Kconfig
 kexec
+Khadas
 Lennart
 Linaro
 mainboard
