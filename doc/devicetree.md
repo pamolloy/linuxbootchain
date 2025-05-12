@@ -32,6 +32,19 @@ sometimes used to describe software.
 No guarantees are made between kernel versions. Furthermore, vendors tend to do
 all sorts of weird things in their trees.
 
+## U-Boot
+
+U-Boot may add various custom nodes to its devicetree:
+
+- A `arch/*/dts/.dts` may explicitly `#include *-u-boot.dtsi` or automatically
+  include U-Boot devicetree source (see [Adding tweaks for
+  U-Boot](https://docs.u-boot.org/en/latest/develop/devicetree/control.html#adding-tweaks-for-u-boot))
+    - binman configuration defining how binaries are stored in persistent
+      storage (see [Image description
+      format](https://docs.u-boot.org/en/latest/develop/package/binman.html#image-description-format))
+    - Define fixed clocks when a previous stage configures the clocks and a
+      clock driver does not exist in U-Boot
+
 ## ACPI
 
 ACPI provides a standardized interface for communicating hardware specific
