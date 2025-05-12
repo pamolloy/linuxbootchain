@@ -15,9 +15,10 @@ board/radxa/rock5-itx-plus/build.bash
 
 ### Boot media selection
 
-The `Maskrom KEY` button next to the `CAM0` connector configures the boot ROM
-to not check the available storage for images and instead immediately try to
-load an image over USB.
+Holding the `Maskrom KEY` button next to the `CAM0` connector on boot
+configures the boot ROM to not check the available storage for images and
+instead immediately try to load an image over USB (see also [Rockchip boot
+ROM](../../../doc/rockchip.md)).
 
 Adding a jumper to the 2-pin `RECOVERY` header next to the UART header causes
 Radxa's U-Boot to boot the Radxa Roobi OS installer from the eMMC.[^1] Their
