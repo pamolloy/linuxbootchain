@@ -36,6 +36,21 @@ The baudrate for this board is 1500000.
 
 Enter `root` as login user, and the prompt is ready.
 
+## Recovery
+
+If an otherwise unrecoverable error occurs that prevents booting into the
+LinuxBoot boot loader or the runtime Linux operating system then the system can
+be recovered using Rockchip's
+[rkdeveloptool](https://github.com/rockchip-linux/rkdeveloptool). It can load a
+recovery image over USB through the boot ROM.
+
+- Connect the Rock 5 ITX+ mainboard to a PC using the USB-C connector located
+  between the power barrel connector and HDMI input connector
+- Hold the `Maskrom KEY` while powering on the mainboard (see also [Boot media
+  selection](#boot-media-selection))
+- Run `rkdeveloptool ld` on the PC to confirm communication with the boot ROM
+  on the mainboard
+
 ## References
 
 - [ROCK 5 ITX](https://forum.radxa.com/c/rock5/5itx) label on the Radxa forum
