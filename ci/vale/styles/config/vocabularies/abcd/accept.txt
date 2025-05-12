@@ -2,6 +2,7 @@ ABCD
 baudrate
 Borleis
 Buildroot
+coreboot
 defconfig
 defconfigs
 devicetree
