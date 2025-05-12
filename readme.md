@@ -1,4 +1,4 @@
-# A boot chain distribution (ABCD)
+# ABCD
 
 ![Wall artwork with A, B, C, and D options like on a ballot and the text
   "Method of Transition"](doc/method-of-transition.webp)
