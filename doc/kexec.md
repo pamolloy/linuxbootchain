@@ -17,3 +17,8 @@ executes before the kernel that mimics common functionality of UEFI kernel boot
 loaders. `kexec` indirectly gets around the header and extra code since it is
 designed to act as a kernel boot loader and therefore skip the system boot
 loaders.
+
+## KHO/LUO
+
+- [kexec handover and the live update
+  orchestrator](https://lwn.net/Articles/1033364) on LWN.net
