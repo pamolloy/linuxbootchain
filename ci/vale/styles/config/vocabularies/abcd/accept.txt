@@ -15,6 +15,7 @@ Kconfig
 kexec
 Khadas
 Lennart
+Libre
 Linaro
 mainboard
 microcontrollers

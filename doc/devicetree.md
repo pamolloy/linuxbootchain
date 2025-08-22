@@ -51,6 +51,11 @@ ACPI provides a standardized interface for communicating hardware specific
 information **and configuring hardware**. But in doing so it adds significant
 complexity to the system.
 
+> DT is extensible by the user. ACPI is lockout.[^libre-computer-tweet]
+
+[^libre-computer-tweet]: [Libre Computer Tweet on August,21
+    2025](https://x.com/librecomputer/status/1958647385925853395)
+
 ## Real world examples
 
 - [Chromebook Boot
